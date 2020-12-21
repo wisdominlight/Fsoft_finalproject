@@ -8,7 +8,7 @@ from tkinter import messagebox
 ##### 엑셀파일을 튜플로 전환하는 함수 #####
 def convert_excel(name):#파일의 이름을 매개변수로 함.
     file_name=str(name)#엑셀파일의 이름, 파일이름은 data이어야 함.
-    full = 'C:/Users/USER/AppData/Local/Programs/Python/Python38-32/금소웨 기말 프로젝트/'+file_name + '.xlsx' #사용자 컴퓨터의 엑셀파일 저장위치를 입력할 것
+    full = 'C:/Users/USER/AppData/Local/Programs/Python/Python38-32/금소웨 기말 프로젝트/'+file_name + '.xlsx' #(수정)사용자 컴퓨터의 엑셀파일 저장위치를 입력할 것
     data = []
 
     df = pd.read_excel(full)
